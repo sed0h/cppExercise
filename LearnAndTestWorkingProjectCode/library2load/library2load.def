@@ -1,0 +1,3 @@
+LIBRARY libtest_library
+EXPORTS
+	ShowLoadTimes

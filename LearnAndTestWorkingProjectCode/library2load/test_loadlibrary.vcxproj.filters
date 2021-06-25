@@ -15,28 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestArrayUnion_ListOperation.cpp">
+    <ClCompile Include="library2load.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_use_enum_map.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="file_operate.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="aligned_test.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ostream_ofstream_test.cpp">
+    <ClCompile Include="Interface.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="aligned_test.h">
+    <None Include="library2load.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library2load.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".editorconfig" />
+    <ClInclude Include="Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
